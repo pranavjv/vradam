@@ -6,12 +6,12 @@ A PyTorch implementation of the VRADAM optimizer.
 
 ## Installation
 
-Copy `vradam_clean.py` to your project.
+Copy `vradam.py` to your project.
 
 ## Usage
 
 ```python
-from vradam_clean import VRADAM
+from vradam import VRADAM
 
 optimizer = VRADAM(
     model.parameters(),
